@@ -8,7 +8,7 @@ const loadingScreen = document.querySelector(".loading-container");
 const userInfoContainer = document.querySelector(".user-info-container");
 
 let oldTab = userTab;
-const API_KEY = "7255f51fcd773718e4eade282b5de8f9";
+const API_KEY = "";
 oldTab.classList.add("current-tab");
 getfromSessionStorage();
 
